@@ -1,0 +1,1 @@
+This is a Python package for Japan's economic statistics research. 
