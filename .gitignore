@@ -12,6 +12,6 @@ __pycache__/
 # Ignore the Sphinx build directory
 docs/_build/
 
-# Ignore pytest-cov coverage file
+# Ignore pytest related files
 .pytest_cache/
 .coverage
