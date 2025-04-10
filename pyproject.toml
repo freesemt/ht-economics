@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ht_economics"
+version = "0.0.1"
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+]
+
+requires-python = ">=3.9"
+
+authors = [
+  {name = "Masatsuyo Takahashi", email = "freesemt@gmail.com"},
+]
+
+maintainers = [
+  {name = "Masatsuyo Takahashi", email = "freesemt@gmail.com"}
+]
+
+description = "Matrix Optimization with Low-rank factorization for Automated analysis of SEC-SAXS"
+readme = "README.md"
+license = { text = "GNU General Public License v3.0" }
+
+keywords = ["Economics", "Japan"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+Repository = "https://github.com/freesemt/ht-economics"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]

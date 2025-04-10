@@ -2,9 +2,6 @@
 Test the GDP class
 This file contains unit tests for the GDP class, which is part of the gdp module.
 """
-import sys
-sys.path.insert(0, "..")
-
 from ht_economics.GDP import get_gdp_data
 
 url_j = "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2024/qe244_2/tables/ritu-jcy2442.csv" # 年次GDP成長率（実質）
